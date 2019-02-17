@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Saturday Morning Cartoons</title>
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="images/TelevisionLgr.png" alt="SaturdayMorningCartoons" id="header-img">
+            <header>
+                <h1>Press 'Enter' to start a new game!</h1>
+            </header>
+        </div>
+    </div>
+    <div class="container" class="row">
+        <div class="col-lg-6">
+            <div id="hiddenWord"></div>
+            <p>Guessed Letters:
+                <div id="lettersGuessed"></div>
+            </p>
+            <p>Guesses Remaining: <span id="lives">12</span></p>
+        </div>
+        <div class="col-lg-6">
+            <p>Wins: <span id="winCounter">0</span></p>
+            <p>Losses: <span id="loseCounter">0</span></p>
+            <span id="messages"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript/game.js"></script>
+
+</body>
+<footer>
+        <small>&copy; Copyright 2019 Brandon White</small>
+</footer>
+
+</html>

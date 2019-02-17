@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../images/90sBG.jpg) repeat;
+	font-family: Chewy;
+	font-size: 30px;
+	color: yellow;
+	text-align: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.container{
+	background-color: #0dc4d1;
+	margin: 0 20 0 20px;
+	padding: 90px;
+	border: 1px solid purple;
+}
+
+header{
+	width: 100%;
+	color: yellow;
+	margin-top: 110px;
+	background-color: purple;
+	padding: 20px;
+	padding-left: 250px;
+	border-bottom: 1px solid darkgreen;
+}
+
+#header-img{
+	width: 300px;
+	float: right;
+	margin: 30px 130px;
+	
+}
+
+#messages{
+	color: red;
+}
+
+footer {
+  color: blue;
+}
+
+/*Media Screens*/
+@media screen and (max-width:980px){
+	header{
+		padding: 20px;
+		padding-left: 80px;
+		margin-bottom: 20px;
+
+	}
+
+	#header-img{
+		margin-left: 10px;
+		margin-right: 100px;
+	}
+
+	.container{
+		padding: 45px;
+	}
+
+}
+
+@media screen and (max-width:768px){
+	.container{
+		padding: 20 0px;
+		margin: 0 90px;
+		
+}
+
+@media screen and (max-width:640px){
+	#header-img{
+		width: 200px;
+		margin: 0px;
+		margin-right: 50px;
+		margin-bottom:20px;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+
+	header{
+		margin-top: 50px;
+	}
+
+	body{
+		font-size: 25px;
+	}
+
+}
